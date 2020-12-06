@@ -75,5 +75,13 @@ try {
 
 ![a](https://github.com/gengtong-191/shiyanwu/blob/main/6946facf7053d6e0c96c316b08de884.png)
 
+![a](https://github.com/gengtong-191/shiyanwu/blob/main/d619b2263340654b1e35efa35f2ebb2.png)
+
 ##七.实验感想
+
+1.这次试验第一次接触了文件的读取和写入，通过上网查询资料并基本学会了文件的读写
+
+2.刚开始读文件，结果输出的文件是乱码的，通过调试，改成utf-8编码，顺利输出
+
+3.用scanner更加熟练了
 
