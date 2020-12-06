@@ -73,5 +73,7 @@ try {
 ```
 ##六.实验截图
 
+![a](https://github.com/gengtong-191/shiyanwu/blob/main/6946facf7053d6e0c96c316b08de884.png)
+
 ##七.实验感想
 
