@@ -51,6 +51,27 @@
 ##五.核心代码
 
 下面是读取文件和写入文件的部分，以及加标点符号的循环
+```
+try {
+            FileReader fileReader = new FileReader("D:\\chg.txt");//读取D盘文件
+            BufferedReader bufferedReader = new BufferedReader(fileReader);//把文件存到缓冲区
+            Writer writer = new FileWriter(new File("D:\\Nesity.txt"));//将缓冲区文件写到A中
+            String str = bufferedReader.readLine();
+            String regex = "(.{7})";//每隔七个字加一个逗号
+            str = str.replaceAll(regex, "$1，");
+            StringBuffer x = new StringBuffer(str);
+            for (int  i = 15; i <289; i = i + 17) {
+                x.replace(i, i + 1, "。\n");//加句号
+            }
+            System.out.println(x);
+            writer.write(String.valueOf(xuesheng));
+            writer.write("\n");
+            writer.write(String.valueOf(x));//把x写的东西写进文本
+            bufferedReader.close();//关闭缓冲区
+            fileReader.close();//关闭读写文件
+            writer.close();//关闭写入
+```
+##六.实验截图
 
-##六.实验感想
+##七.实验感想
 
